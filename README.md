@@ -54,12 +54,12 @@ User
 
 | Subnet Name | Availability Zone | Type | CIDR |
 |---|---|---|---|
-| web-tier-public-1a | AZ-1a | Public | 172.16.0.0/24 |
-| web-tier-public-1b | AZ-1b | Public | 172.16.1.0/24 |
-| app-tier-private-1a | AZ-1a | Private | 172.16.2.0/24 |
-| app-tier-private-1b | AZ-1b | Private | 172.16.3.0/24 |
-| db-tier-private-1a | AZ-1a | Private | 172.16.4.0/24 |
-| db-tier-private-1b | AZ-1b | Private | 172.16.5.0/24 |
+| web-tier-public-1a | AZ-1a | Public | 10.0.1.0/24 |
+| web-tier-public-1b | AZ-1b | Public | 10.0.2.0/24 |
+| app-tier-private-1a | AZ-1a | Private | 10.0.3.0/24 |
+| app-tier-private-1b | AZ-1b | Private | 10.0.4.0/24 |
+| db-tier-private-1a | AZ-1a | Private | 10.0.5.0/24 |
+| db-tier-private-1b | AZ-1b | Private | 10.0.6.0/24 |
 
 - **Internet Gateway** → attached to VPC for public subnet outbound/inbound
 - **NAT Gateway** → placed in public subnet, routes private subnet outbound traffic
