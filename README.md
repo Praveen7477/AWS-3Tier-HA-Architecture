@@ -85,7 +85,7 @@ Internet (0.0.0.0/0)
 
 ## 🚀 Deployment Steps (Summary)
 
-> 📄 For the complete step-by-step guide with all commands and screenshots, see [`docs/deployment-guide.docx`](docs/deployment-guide.docx)
+> 📄 For the complete step-by-step guide with all commands and screenshots, see [`docs/deployment-guide.docx`](docs/deployment_guide.pdf)
 
 1. **Download code** to local system
 2. **Create two S3 buckets** — one for app code, one for VPC Flow Logs. Upload code.
